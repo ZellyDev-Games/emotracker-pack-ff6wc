@@ -35,7 +35,7 @@ jobs:
           else
             release_name="nightly"
           fi
-          echo "path=dist/ff6wc_community_autotracker-${release_name}.zip" >> "${GITHUB_OUTPUT}"
+          echo "path=dist/ff6wc_zellydevgames-${release_name}.zip" >> "${GITHUB_OUTPUT}"
 
       - name: Build package
         shell: bash
@@ -72,7 +72,7 @@ jobs:
       - name: Prepare stable archive
         if: startsWith(github.ref, 'refs/tags/') && github.ref_name != 'nightly' && github.ref_name != 'stable'
         shell: bash
-        run: cp "${{ steps.archive.outputs.path }}" dist/ff6wc_community_autotracker-stable.zip
+        run: cp "${{ steps.archive.outputs.path }}" dist/ff6wc_zellydevgames-stable.zip
 
       - name: Move stable tag to latest tagged commit
         if: startsWith(github.ref, 'refs/tags/') && github.ref_name != 'nightly' && github.ref_name != 'stable'
@@ -91,7 +91,7 @@ jobs:
           name: stable
           prerelease: false
           make_latest: true
-          files: dist/ff6wc_community_autotracker-stable.zip
+          files: dist/ff6wc_zellydevgames-stable.zip
           fail_on_unmatched_files: true
           overwrite_files: true
           body: |
