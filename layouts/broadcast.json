@@ -1,0 +1,87 @@
+{
+	"tracker_broadcast":
+	{
+		"type": "array",
+		"background": "#000000",
+		"dropshadow": true,
+		"margin": "0,0",
+		"content":
+		[
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content":
+				[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Whelk", "LoneWolf", "tunnelArmor" ],
+							[ "Vargas", "LeteRiver", "GauManor" ],
+							[ "ImperialCamp", "WoBDoma", "PhantomTrain" ],
+							[ "BarenFalls", "SerpentTrench", "ZozoRamuh" ],
+							[ "WoBThamasa", "EsperMtn", "OperaHouse" ],
+							[ "Magitek"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "Center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "VeldtJerky", "KohlingenDoge" ],
+							[ "ChainedCeles", "FigThrone" ],
+							[ "Auctioneer", "TzenThief" ],
+							[ "MtZozo", "Float" ],
+							[ "CheckCounter" ],
+							[ "Char", "Esper" ],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "NarsheWpn", "Tritoch", "Umaro" ],
+							[ "FigCave", "AncientCastle", "Phunbaba" ],
+							[ "TzenHouse", "ZoneEater", "DoomGaze" ],
+							[ "WoRVeldt", "DarillTomb", "Owzer" ],
+							[ "EbotsRock", "FanaticsTower" ],
+							[ "PhoenixCave", "WoRDoma", "Dragon" ],
+						]
+					}
+				]
+			}
+		]
+	},
+	"tracker_capture_item":
+	{
+		"type": "container",
+		"content":
+		{
+			"type": "layout",
+			"key": "shared_item_grid"
+		}
+	},
+	"tracker_default":
+	{
+		"type": "container",
+		"width": 512,
+		"height": 384,
+		"content":
+		{
+			"type": "layout",
+			"dropshadow": true,
+			"margin": 0,
+			"key": "shared_item_grid"
+		}
+	}
+}

@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Major Checks",
+    "children": [
+      {
+        "name": "World of Balance",
+        "color": "#b82800",
+        "children": [
+          {
+            "name": "Lete River",
+            "access_rules": ["Terra"],
+            "sections": [{ "name": "Lete River", "hosted_item": "LeteRiver" }],
+            "map_locations": [{ "map": "Combined Map", "x": 419, "y": 257 }]
+          },
+          {
+            "name": "Narshe",
+            "sections": [
+              { "name": "Whelk", "hosted_item": "Whelk", "access_rules": ["Terra"] },
+              { "name": "Kefka Invasion", "hosted_item": "NarsheKefka" },
+              { "name": "Lone Wolf", "hosted_item": "LoneWolf", "access_rules": ["Mog"] },
+              { "name": "Moogle Defense", "hosted_item": "MogDef", "access_rules": ["Mog"] }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 337, "y": 133 }]
+          },
+          {
+            "name": "Zozo",
+            "access_rules": ["Terra"],
+            "sections": [{ "name": "Ramuh", "hosted_item": "ZozoRamuh" }],
+            "map_locations": [{ "map": "Combined Map", "x": 89, "y": 369 }]
+          },
+          {
+            "name": "Mt. Kolts",
+            "access_rules": ["Sabin"],
+            "sections": [{ "name": "Vargas", "hosted_item": "Vargas" }],
+            "map_locations": [{ "map": "Combined Map", "x": 410, "y": 403 }]
+          },
+          {
+            "name": "Baren Falls",
+            "access_rules": ["Sabin"],
+            "sections": [{ "name": "Baren Falls", "hosted_item": "BarenFalls" }],
+            "map_locations": [{ "map": "Combined Map", "x": 739, "y": 372 }]
+          },
+          {
+            "name": "Phantom Train",
+            "access_rules": ["Sabin"],
+            "sections": [{ "name": "Phantom Train", "hosted_item": "PhantomTrain" }],
+            "map_locations": [{ "map": "Combined Map", "x": 714, "y": 328 }]
+          },
+          {
+            "name": "Imperial Camp",
+            "access_rules": ["Sabin"],
+            "sections": [{ "name": "Imperial Camp", "hosted_item": "ImperialCamp" }],
+            "map_locations": [{ "map": "Combined Map", "x": 720, "y": 286 }]
+          },
+          {
+            "name": "South Figaro",
+            "access_rules": ["Celes"],
+            "sections": [{ "name": "Celes' Cell", "hosted_item": "ChainedCeles" }],
+            "map_locations": [{ "map": "Combined Map", "x": 343, "y": 450 }]
+          },
+          {
+            "name": "South Figaro Cave",
+            "access_rules": ["Locke"],
+            "sections": [{ "name": "Tunnel Armor", "hosted_item": "tunnelArmor" }],
+            "map_locations": [{ "map": "Combined Map", "x": 302, "y": 410 }]
+          },
+          {
+            "name": "Figaro Castle",
+            "access_rules": ["Edgar"],
+            "sections": [{ "name": "Throne", "hosted_item": "FigThrone" }],
+            "map_locations": [{ "map": "Combined Map", "x": 263, "y": 312 }]
+          },
+          {
+            "name": "Doma Castle",
+            "access_rules": ["Cyan"],
+            "sections": [{ "name": "Doma", "hosted_item": "WoBDoma" }],
+            "map_locations": [{ "map": "Combined Map", "x": 626, "y": 336 }]
+          },
+          {
+            "name": "Serpent Trench",
+            "access_rules": ["Gau"],
+            "sections": [{ "name": "Diving Helmet", "hosted_item": "SerpentTrench" }],
+            "map_locations": [{ "map": "Combined Map", "x": 859, "y": 593 }]
+          },
+          {
+            "name": "Veldt",
+            "access_rules": ["Gau"],
+            "sections": [{ "name": "Jerky", "hosted_item": "VeldtJerky" }],
+            "map_locations": [{ "map": "Combined Map", "x": 820, "y": 520 }]
+          },
+          {
+            "name": "Gau's Father's House",
+            "access_rules": ["Shadow"],
+            "sections": [{ "name": "Gau Manor", "hosted_item": "GauManor" }],
+            "map_locations": [{ "map": "Combined Map", "x": 660, "y": 140 }]
+          },
+          {
+            "name": "Kohlingen",
+            "access_rules": ["Setzer"],
+            "sections": [{ "name": "Inn", "hosted_item": "KohlingenDoge" }],
+            "map_locations": [{ "map": "Combined Map", "x": 45, "y": 156 }]
+          },
+          {
+            "name": "Jidoor",
+            "sections": [{ "name": "Auction Rewards", "hosted_item": "AuctionComplete" }],
+            "map_locations": [{ "map": "Combined Map", "x": 108, "y": 524 }]
+          },
+          {
+            "name": "Opera House",
+            "access_rules": ["Celes"],
+            "sections": [{ "name": "Opera", "hosted_item": "OperaHouse" }],
+            "map_locations": [{ "map": "Combined Map", "x": 180, "y": 618 }]
+          },
+          {
+            "name": "Tzen",
+            "sections": [{ "name": "Thief", "hosted_item": "TzenThief" }],
+            "map_locations": [{ "map": "Combined Map", "x": 480, "y": 600 }]
+          },
+          {
+            "name": "Thamasa",
+            "access_rules": ["Strago"],
+            "sections": [{ "name": "Burning House", "hosted_item": "WoBThamasa" }],
+            "map_locations": [{ "map": "Combined Map", "x": 1005, "y": 507 }]
+          },
+          {
+            "name": "Esper Mountain",
+            "access_rules": ["Relm"],
+            "sections": [{ "name": "Esper Mountain", "hosted_item": "EsperMtn" }],
+            "map_locations": [{ "map": "Combined Map", "x": 918, "y": 521 }]
+          },
+          {
+            "name": "Magitek Factory",
+            "access_rules": ["Celes"],
+            "sections": [
+              { "name": "Ifrit and Shiva", "hosted_item": "IfritandShiva" },
+              { "name": "Number 024", "hosted_item": "Number024" },
+              { "name": "Cranes", "hosted_item": "Cranes" }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 484, "y": 748 }]
+          },
+          {
+            "name": "Floating Continent",
+            "access_rules": ["Shadow"],
+            "sections": [
+              { "name": "Imperial Air Force", "hosted_item": "ImperialAirForce" },
+              { "name": "Atma Weapon", "hosted_item": "AtmaWeapon" },
+              { "name": "Nerapa", "hosted_item": "Nerapa" }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 547, "y": 477 }]
+          }
+        ]
+      },
+      {
+        "name": "World of Ruin",
+        "color": "#0060b8",
+        "children": [
+          {
+            "name": "Narshe",
+            "sections": [
+              { "name": "Weapon Shop", "hosted_item": "NarsheWpn", "access_rules": ["Locke"] },
+              { "name": "Ice Dragon", "hosted_item": "IceDragon" },
+              { "name": "Tritoch", "hosted_item": "Tritoch" },
+              { "name": "Umaro", "hosted_item": "Umaro", "access_rules": ["UmaroCharacter"] }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 1485, "y": 134 }]
+          },
+          {
+            "name": "Mobliz",
+            "access_rules": ["Terra"],
+            "sections": [{ "name": "Phunbaba", "hosted_item": "Phunbaba" }],
+            "map_locations": [{ "map": "Combined Map", "x": 1969, "y": 545 }]
+          },
+          {
+            "name": "Tzen",
+            "sections": [
+              { "name": "Collapsing House", "hosted_item": "TzenHouse", "access_rules": ["Sabin"] },
+              { "name": "Thief", "hosted_item": "TzenThief" }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 1539, "y": 719 }]
+          },
+          {
+            "name": "Daryl's Tomb",
+            "access_rules": ["Setzer"],
+            "sections": [{ "name": "Dullahan", "hosted_item": "DarillTomb" }],
+            "map_locations": [{ "map": "Combined Map", "x": 1126, "y": 209 }]
+          },
+          {
+            "name": "Phoenix Cave",
+            "access_rules": ["Locke"],
+            "sections": [
+              { "name": "Phoenix Cave", "hosted_item": "PhoenixCave" },
+              { "name": "Red Dragon", "hosted_item": "RedDragon" }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 1496, "y": 628 }]
+          },
+          {
+            "name": "Zone Eater",
+            "access_rules": ["Gogo"],
+            "sections": [{ "name": "Zone Eater", "hosted_item": "ZoneEater" }],
+            "map_locations": [{ "map": "Combined Map", "x": 1974, "y": 208 }]
+          },
+          {
+            "name": "Cyan's Dream",
+            "access_rules": ["Cyan"],
+            "sections": [
+              { "name": "Dream Stooges", "hosted_item": "DreamStooges" },
+              { "name": "Wrexsoul", "hosted_item": "Wrexsoul" },
+              { "name": "Doma Castle Throne", "hosted_item": "DomaCastleThrone" }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 1712, "y": 300 }]
+          },
+          {
+            "name": "Fanatics' Tower",
+            "sections": [
+              { "name": "Fanatics' Tower", "hosted_item": "FanaticsTower", "access_rules": ["Strago"] },
+              { "name": "White Dragon", "hosted_item": "WhiteDragon" }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 1666, "y": 505 }]
+          },
+          {
+            "name": "Figaro Cave",
+            "access_rules": ["Edgar"],
+            "sections": [{ "name": "Tentacles", "hosted_item": "FigCave" }],
+            "map_locations": [{ "map": "Combined Map", "x": 1450, "y": 394 }]
+          },
+          {
+            "name": "Ancient Castle",
+            "access_rules": ["Edgar"],
+            "sections": [
+              { "name": "Raiden", "hosted_item": "AncientCastle" },
+              { "name": "Blue Dragon", "hosted_item": "BlueDragon" },
+              { "name": "Figaro Throne", "hosted_item": "FigThrone" }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 1327, "y": 276 }]
+          },
+          {
+            "name": "Jidoor",
+            "sections": [
+              { "name": "Owzer's Mansion", "hosted_item": "Owzer", "access_rules": ["Relm"] },
+              { "name": "Auction Rewards", "hosted_item": "AuctionComplete" }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 1164, "y": 627 }]
+          },
+          {
+            "name": "Mt. Zozo",
+            "access_rules": ["Cyan"],
+            "sections": [
+              { "name": "Mt. Zozo", "hosted_item": "MtZozo" },
+              { "name": "Storm Dragon", "hosted_item": "StormDragon" }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 1198, "y": 492 }]
+          },
+          {
+            "name": "Ebots Rock",
+            "access_rules": ["Strago"],
+            "sections": [{ "name": "Hidon", "hosted_item": "EbotsRock" }],
+            "map_locations": [{ "map": "Combined Map", "x": 2023, "y": 892 }]
+          },
+          {
+            "name": "Veldt Cave",
+            "access_rules": ["Shadow"],
+            "sections": [{ "name": "SrBehemoth", "hosted_item": "WoRVeldt" }],
+            "map_locations": [{ "map": "Combined Map", "x": 1854, "y": 356 }]
+          },
+          {
+            "name": "Veldt",
+            "sections": [
+              { "name": "Three Party Members and Dried Meat", "hosted_item": "VeldtJerky", "access_rules": ["Gau"] }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 1884, "y": 329 }]
+          },
+          {
+            "name": "Kohlingen",
+            "sections": [
+              { "name": "Kohlingen Inn", "hosted_item": "KohlingenDoge", "access_rules": ["Setzer"] }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 1180, "y": 182 }]
+          },
+          {
+            "name": "Thamasa",
+            "sections": [
+              { "name": "Burning House", "hosted_item": "WoBThamasa", "access_rules": ["Strago"] }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 2029, "y": 924 }]
+          },
+          {
+            "name": "Doom Gaze",
+            "sections": [{ "name": "Doom Gaze", "hosted_item": "DoomGaze" }],
+            "map_locations": [{ "map": "Combined Map", "x": 1546, "y": 522 }]
+          },
+          {
+            "name": "Opera House",
+            "sections": [{ "name": "Dirt Dragon", "hosted_item": "DirtDragon" }],
+            "map_locations": [{ "map": "Combined Map", "x": 1149, "y": 733 }]
+          },
+          {
+            "name": "Kefka's Tower",
+            "sections": [
+              { "name": "Atma Weapon", "hosted_item": "AtmaWpn" },
+              { "name": "Gold Dragon", "hosted_item": "GoldDragon" },
+              { "name": "Skull Dragon", "hosted_item": "SkullDragon" },
+              { "name": "Kefka", "hosted_item": "FinalKefka", "access_rules": ["$canAccessKefkasTower"] }
+            ],
+            "map_locations": [{ "map": "Combined Map", "x": 1573, "y": 792 }]
+          }
+        ]
+      }
+    ]
+  }
+]

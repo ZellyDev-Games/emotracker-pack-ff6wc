@@ -1,0 +1,14 @@
+{
+  "name": "ZellyDev Games EmoTracker Packs",
+  "packages": [
+    {
+      "name": "Final Fantasy VI Worlds Collide",
+      "author": "ZellyDev Games",
+      "game_name": "Final Fantasy VI Worlds Collide",
+      "version": "0.1.0",
+      "uid": "ff6wc_community_autotracker",
+      "link": "https://github.com/ZellyDev-Games/emotracker-pack-ff6wc/releases/latest/download/ff6wc_community_autotracker-stable.zip",
+      "documentation_url": "https://github.com/ZellyDev-Games/emotracker-pack-ff6wc"
+    }
+  ]
+}

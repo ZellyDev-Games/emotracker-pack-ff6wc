@@ -1,0 +1,120 @@
+name: Package and release EmoTracker pack
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "*"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: emotracker-release-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  package:
+    name: Build EmoTracker ZIP
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine archive name
+        id: archive
+        shell: bash
+        run: |
+          if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
+            release_name="${GITHUB_REF_NAME//\//-}"
+          else
+            release_name="nightly"
+          fi
+          echo "path=dist/ff6wc_community_autotracker-${release_name}.zip" >> "${GITHUB_OUTPUT}"
+
+      - name: Build package
+        shell: bash
+        run: |
+          mkdir -p dist
+          zip -r "${{ steps.archive.outputs.path }}" \
+            manifest.json \
+            settings.json \
+            items \
+            layouts \
+            locations \
+            maps \
+            scripts \
+            images \
+            LICENSE \
+            README.md \
+            THIRD_PARTY_NOTICES.md
+
+      - name: Verify package root
+        shell: bash
+        run: |
+          unzip -Z1 "${{ steps.archive.outputs.path }}" | grep -Fxq manifest.json
+          unzip -t "${{ steps.archive.outputs.path }}"
+
+      - name: Create tagged release
+        if: startsWith(github.ref, 'refs/tags/') && github.ref_name != 'nightly' && github.ref_name != 'stable'
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ github.ref_name }}
+          files: ${{ steps.archive.outputs.path }}
+          fail_on_unmatched_files: true
+          generate_release_notes: true
+
+      - name: Prepare stable archive
+        if: startsWith(github.ref, 'refs/tags/') && github.ref_name != 'nightly' && github.ref_name != 'stable'
+        shell: bash
+        run: cp "${{ steps.archive.outputs.path }}" dist/ff6wc_community_autotracker-stable.zip
+
+      - name: Move stable tag to latest tagged commit
+        if: startsWith(github.ref, 'refs/tags/') && github.ref_name != 'nightly' && github.ref_name != 'stable'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag --force stable "${GITHUB_SHA}"
+          git push origin refs/tags/stable --force
+
+      - name: Create or update stable release
+        if: startsWith(github.ref, 'refs/tags/') && github.ref_name != 'nightly' && github.ref_name != 'stable'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: stable
+          name: stable
+          prerelease: false
+          make_latest: true
+          files: dist/ff6wc_community_autotracker-stable.zip
+          fail_on_unmatched_files: true
+          overwrite_files: true
+          body: |
+            Stable release tracking the latest tagged version.
+
+      - name: Move nightly tag to main
+        if: github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag --force nightly "${GITHUB_SHA}"
+          git push origin refs/tags/nightly --force
+
+      - name: Create or update Nightly release
+        if: github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: nightly
+          name: Nightly
+          prerelease: true
+          make_latest: false
+          files: ${{ steps.archive.outputs.path }}
+          fail_on_unmatched_files: true
+          overwrite_files: true
+          body: |
+            Automated development build from the latest commit on `main`.

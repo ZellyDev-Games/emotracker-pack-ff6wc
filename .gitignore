@@ -1,0 +1,32 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.idea/
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# .NET / EmoTracker development output
+bin/
+obj/
+TestResults/
+
+# Generated release packages and build staging
+dist/
+*.zip
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.log
+
+# Coverage and local tooling caches
+coverage/
+.cache/
+__pycache__/
+*.py[cod]

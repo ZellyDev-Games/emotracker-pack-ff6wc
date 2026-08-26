@@ -1,0 +1,881 @@
+[
+	{
+		"name": "Narshe Whelk",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Whelk.png",
+		"codes": "Whelk"
+	},
+	{
+		"name": "Narshe Lone Wolf",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/LoneWolf.png",
+		"codes": "LoneWolf"
+	},
+	{
+		"name": "Narshe Moogle Defense",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/MogDef.png",
+		"codes": "MogDef"
+	},
+	{
+		"name": "Figaro Throne",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/FigaroThrone.png",
+		"codes": "FigThrone"
+	},
+	{
+		"name": "Mt Kolts Vargas",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Vargas.png",
+		"codes": "Vargas"
+	},
+	{
+		"name": "Imperial Camp",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/MilEnc.png",
+		"codes": "ImperialCamp"
+	},
+	{
+		"name": "Narshe Wpn Locke Req",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Narshe_Wpn.png",
+		"codes": "NarsheWpn"
+	},
+	{
+		"name": "Doma",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Captain.png",
+		"codes": "WoBDoma"
+	},
+	{
+		"name": "Jidoor Owzer Mansion",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Chadarnook.png",
+		"codes": "Owzer"
+	},
+	{
+		"name": "South Figaro",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/ChainedCeles.png",
+		"codes": "ChainedCeles"
+	},
+	{
+		"name": "Zozo Ramuh",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Ramuh.png",
+		"codes": "ZozoRamuh"
+	},
+	{
+		"name": "Doom Gaze",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/DoomGaze.png",
+		"codes": "DoomGaze"
+	},
+	{
+		"name": "Darill's Tomb",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Dullahan.png",
+		"codes": "DarillTomb"
+	},
+	{
+		"name": "Thamasa Use Inn",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/FlameEater.png",
+		"codes": "WoBThamasa"
+	},
+	{
+		"name": "Gau Manor",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/GauDad.png",
+		"codes": "GauManor"
+	},
+	{
+		"name": "Veldt 3 party members + Jerky",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/GauJerky.png",
+		"codes": "VeldtJerky"
+	},
+	{
+		"name": "Phantom Train",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/GhostTrain.png",
+		"codes": "PhantomTrain"
+	},
+	{
+		"name": "Esper Mountain",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/GoddessStatue.png",
+		"codes": "EsperMtn"
+	},
+	{
+		"name": "Kohlingen Inn",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/InterceptorKohlingen.png",
+		"codes": "KohlingenDoge"
+	},
+	{
+		"name": "Fanatics Tower",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/MageMaster.png",
+		"codes": "FanaticsTower"
+	},
+	{
+		"name": "Mobliz",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Phunbaba.png",
+		"codes": "Phunbaba"
+	},
+	{
+		"name": "Ancient Castle",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Raiden.png",
+		"codes": "AncientCastle"
+	},
+	{
+		"name": "Mt Zozo",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Roses.png",
+		"codes": "MtZozo"
+	},
+	{
+		"name": "Veldt Cave",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/SrBehemoth.png",
+		"codes": "WoRVeldt"
+	},
+	{
+		"name": "Figaro Cave",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Tentacle.png",
+		"codes": "FigCave"
+	},
+	{
+		"name": "Narshe Tritoch",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Tritoch.png",
+		"codes": "Tritoch"
+	},
+	{
+		"name": "Backwards through South Figaro Cave",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/TunnelArmor.png",
+		"codes": "tunnelArmor"
+	},
+	{
+		"name": "Tzen Collapsing House",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/TzenHouse.png",
+		"codes": "TzenHouse"
+	},
+	{
+		"name": "Serpent Trench",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/DiveHelm.png",
+		"codes": "SerpentTrench"
+	},
+	{
+		"name": "Tzen Thief in Woods",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/TzenThief.png",
+		"codes": "TzenThief"
+	},
+	{
+		"name": "Lete River",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Ultros.png",
+		"codes": "LeteRiver"
+	},
+	{
+		"name": "Narshe Umaro",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Umaro.png",
+		"codes": "Umaro"
+	},
+	{
+		"name": "Opera House",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Weight.png",
+		"codes": "OperaHouse"
+	},
+	{
+		"name": "Zone Eater",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/ZoneEater.png",
+		"codes": "ZoneEater"
+	},
+	{
+		"name": "Baren Falls",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Rizopas.png",
+		"codes": "BarenFalls"
+	},
+	{
+		"name": "Ebots Rock Hidon",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Hidon.png",
+		"codes": "EbotsRock"
+	},
+		// Magitek Factory
+	{
+      "name": "3 Magitek Factory",
+      "type": "progressive",
+      "allow_disabled": "false",
+      "stages": [
+        {
+          "img": "images/Crane.png",
+          "img_mods": "@disabled",
+		  "codes": "Magitek"
+        },
+        {
+          "img": "images/Crane.png",
+          "img_mods": "overlay|images/Overlays/1.png"
+        },
+        {
+          "img": "images/Crane.png",
+		  "img_mods": "overlay|images/Overlays/2.png"
+        },
+		{
+          "img": "images/Crane.png",
+		  "img_mods": "overlay|images/Overlays/3.png"
+        },
+      ]
+	    },
+	{
+	  "name": "Ifrit and Shiva",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/Crane.png",
+	  "codes": "IfritandShiva"
+	},
+	{
+	  "name": "Number 024",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/Crane.png",
+	  "codes": "Number024"
+	},
+	{
+	  "name": "Cranes",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/Crane.png",
+	  "codes": "Cranes"
+	},
+			// Jidoor Auctions
+	{
+      "name": "2 Jidoor Auctions",
+      "type": "progressive",
+      "allow_disabled": "false",
+      "stages": [
+        {
+          "img": "images/Auctioneer.png",
+          "img_mods": "@disabled",
+		  "codes": "Auctioneer"
+        },
+        {
+          "img": "images/Auctioneer.png",
+          "img_mods": "overlay|images/Overlays/1.png"
+        },
+        {
+          "img": "images/Auctioneer.png",
+		  "img_mods": "overlay|images/Overlays/2.png"
+        },
+      ]
+	    },
+	{
+	  "name": "Auction House 10,000 GP",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/Auctioneer.png",
+	  "codes": "AuctionHouse10kGP"
+	},
+	{
+	  "name": "Auction House 20,000 GP",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/Auctioneer.png",
+	  "codes": "AuctionHouse20kGP"
+	},
+	{
+	  "name": "Auction Rewards Complete",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/Auctioneer.png",
+	  "codes": "AuctionComplete"
+	},
+			// Floating Continent
+	{
+	      "name": "3 Floating Continent",
+      "type": "progressive",
+      "allow_disabled": "false",
+      "stages": [
+        {
+          "img": "images/ShadowYump.png",
+          "img_mods": "@disabled",
+		  "codes": "Float"
+        },
+        {
+          "img": "images/ShadowYump.png",
+          "img_mods": "overlay|images/Overlays/1.png"
+        },
+	        {
+	          "img": "images/ShadowYump.png",
+			  "img_mods": "overlay|images/Overlays/2.png"
+	        },
+	        {
+	          "img": "images/ShadowYump.png",
+			  "img_mods": "overlay|images/Overlays/3.png"
+	        },
+	      ]
+	    },
+	{
+	  "name": "Imperial Air Force",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/ShadowYump.png",
+	  "codes": "ImperialAirForce"
+	},
+	{
+	  "name": "Floating Continent Atma Weapon",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/ShadowYump.png",
+	  "codes": "AtmaWeapon"
+	},
+	{
+	  "name": "Nerapa",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/ShadowYump.png",
+	  "codes": "Nerapa"
+	},
+			// WoR Doma
+	{
+	      "name": "3 WoR Doma Checks",
+      "type": "progressive",
+      "allow_disabled": "false",
+      "stages": [
+        {
+          "img": "images/Wrexsoul.png",
+          "img_mods": "@disabled",
+		  "codes": "WoRDoma"
+        },
+        {
+          "img": "images/Wrexsoul.png",
+          "img_mods": "overlay|images/Overlays/1.png"
+        },
+	        {
+	          "img": "images/Wrexsoul.png",
+			  "img_mods": "overlay|images/Overlays/2.png"
+	        },
+	        {
+	          "img": "images/Wrexsoul.png",
+			  "img_mods": "overlay|images/Overlays/3.png"
+	        },
+	      ]
+	    },
+	{
+	  "name": "Dream Stooges",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/Wrexsoul.png",
+	  "codes": "DreamStooges"
+	},
+	{
+	  "name": "Wrexsoul",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/Wrexsoul.png",
+	  "codes": "Wrexsoul"
+	},
+	{
+	  "name": "Doma Castle Throne",
+	  "type": "toggle",
+	  "loop": true,
+	  "img": "images/Wrexsoul.png",
+	  "codes": "DomaCastleThrone"
+	},
+		// Phoenix Cave
+	{
+		"name": "Phoenix Cave",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/Phoenix.png",
+		"codes": "PhoenixCave"
+	},
+	    // Dragon Counter
+    {
+      "name": "8 Dragons",
+      "type": "progressive",
+      "allow_disabled": "false",
+      "stages": [
+        {
+          "img": "images/GreenDragon.png",
+          "img_mods": "@disabled",
+		  "codes": "Dragon"
+        },
+        {
+          "img": "images/GreenDragon.png",
+		  "img_mods": "overlay|images/Overlays/1.png"
+        },
+        {
+          "img": "images/GreenDragon.png",
+		  "img_mods": "overlay|images/Overlays/2.png"
+        },
+        {
+          "img": "images/GreenDragon.png",
+		  "img_mods": "overlay|images/Overlays/3.png"
+        },
+        {
+          "img": "images/GreenDragon.png",
+		  "img_mods": "overlay|images/Overlays/4.png"
+        },
+		{
+          "img": "images/GreenDragon.png",
+		  "img_mods": "overlay|images/Overlays/5.png"
+        },
+		{
+          "img": "images/GreenDragon.png",
+		  "img_mods": "overlay|images/Overlays/6.png"
+        },
+		{
+          "img": "images/GreenDragon.png",
+		  "img_mods": "overlay|images/Overlays/7.png"
+        },
+		{
+          "img": "images/GreenDragon.png",
+		  "img_mods": "overlay|images/Overlays/8.png"
+        },
+      ]
+    },
+		// Character Counter
+    {
+      "name": "14 Characters",
+      "type": "progressive",
+      "allow_disabled": false,
+      "stages": [
+        {
+          "img": "images/Char.png",
+          "img_mods": "@disabled",
+          "codes": "Char"
+        },
+        {
+          "img": "images/Char.png",
+          "img_mods": "@enabled",
+		  "img_mods": "overlay|images/Overlays/1.png",
+        },
+        {
+          "img": "images/Char.png",
+          "img_mods": "overlay|images/Overlays/2.png"
+        },
+        {
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/3.png"
+        },
+        {
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/4.png"
+        },
+        {
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/5.png"
+        },
+		{
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/6.png"
+        },
+		{
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/7.png"
+        },
+		{
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/8.png"
+        },
+		{
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/9.png"
+        },
+		{
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/10.png"
+        },
+		{
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/11.png"
+        },
+		{
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/12.png"
+        },
+		{
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/13.png"
+        },
+		{
+          "img": "images/Char.png",
+		  "img_mods": "overlay|images/Overlays/14.png"
+        },
+      ]
+    },
+		// Esper Counter
+    {
+      "name": "24 Espers",
+      "type": "progressive",
+      "allow_disabled": "false",
+      "stages": [
+        {
+          "img": "images/Esper.png",
+          "img_mods": "@disabled",
+		  "codes": "Esper"
+        },
+        {
+          "img": "images/Esper.png",
+          "img_mods": "overlay|images/Overlays/1.png"
+        },
+        {
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/2.png"
+        },
+        {
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/3.png"
+        },
+        {
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/4.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/5.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/6.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/7.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/8.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/9.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/10.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/11.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/12.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/13.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/14.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/15.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/16.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/17.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/18.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/19.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/20.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/21.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/22.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/23.png"
+        },
+		{
+          "img": "images/Esper.png",
+		  "img_mods": "overlay|images/Overlays/24.png"
+        },
+      ]
+    },
+    {
+      "name": "Terra",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtTerra.png",
+      "codes": "Terra"
+    },
+    {
+      "name": "Locke",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtLocke.png",
+      "codes": "Locke"
+    },
+    {
+      "name": "Cyan",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtCyan.png",
+      "codes": "Cyan"
+    },
+    {
+      "name": "Shadow",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtShadow.png",
+      "codes": "Shadow"
+    },
+    {
+      "name": "Edgar",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtEdgar.png",
+      "codes": "Edgar"
+    },
+    {
+      "name": "Sabin",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtSabin.png",
+      "codes": "Sabin"
+    },
+    {
+      "name": "Celes",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtCeles.png",
+      "codes": "Celes"
+    },
+    {
+      "name": "Strago",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtStrago.png",
+      "codes": "Strago"
+    },
+    {
+      "name": "Relm",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtRelm.png",
+      "codes": "Relm"
+    },
+    {
+      "name": "Setzer",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtSetzer.png",
+      "codes": "Setzer"
+    },
+    {
+      "name": "Mog",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtMog.png",
+      "codes": "Mog"
+    },
+    {
+      "name": "Gau",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtGau.png",
+      "codes": "Gau"
+    },
+    {
+      "name": "Gogo",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtGogo.png",
+      "codes": "Gogo"
+    },
+    {
+      "name": "Umaro (Character)",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/PrtUmaro.png",
+      "codes": "UmaroCharacter"
+    },
+    {
+      "name": "Ice Dragon",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/IceDragon.png",
+      "codes": "IceDragon"
+    },
+    {
+      "name": "Storm Dragon",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/StormDragon.png",
+      "codes": "StormDragon"
+    },
+    {
+      "name": "Dirt Dragon",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/DirtDragon.png",
+      "codes": "DirtDragon"
+    },
+    {
+      "name": "Gold Dragon",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/GoldDragon.png",
+      "codes": "GoldDragon"
+    },
+    {
+      "name": "Skull Dragon",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/SkullDragon.png",
+      "codes": "SkullDragon"
+    },
+    {
+      "name": "Blue Dragon",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/BlueDragon.png",
+      "codes": "BlueDragon"
+    },
+    {
+      "name": "Red Dragon",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/RedDragon.png",
+      "codes": "RedDragon"
+    },
+    {
+      "name": "White Dragon",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/WhiteDragon.png",
+      "codes": "WhiteDragon"
+    },
+    {
+      "name": "Atma Weapon",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/AtmaWpn.png",
+      "codes": "AtmaWpn"
+    },
+    {
+      "name": "Final Kefka",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/Kefka.png",
+      "codes": "FinalKefka"
+    },
+    {
+      "name": "Narshe Kefka Invasion",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/Kefka.png",
+      "codes": "NarsheKefka"
+    },
+    {
+      "name": "Required Characters",
+      "type": "consumable",
+      "img": "images/Char.png",
+      "codes": "requiredchars",
+      "initial_quantity": 6,
+      "min_quantity": 3,
+      "max_quantity": 14,
+      "increment": 1
+    },
+    {
+      "name": "Required Espers",
+      "type": "consumable",
+      "img": "images/Esper.png",
+      "codes": "requiredespers",
+      "initial_quantity": 9,
+      "min_quantity": 0,
+      "max_quantity": 27,
+      "increment": 1
+    },
+    {
+      "name": "Auction Checks",
+      "type": "consumable",
+      "img": "images/Auctioneer.png",
+      "codes": "requiredauctionchecks",
+      "initial_quantity": 1,
+      "min_quantity": 1,
+      "max_quantity": 2,
+      "increment": 1
+    },
+    {
+      "name": "Completed Checks",
+      "type": "consumable",
+      "img": "images/Chest.png",
+      "codes": "CheckCounter",
+      "initial_quantity": 0,
+      "max_quantity": 999,
+      "increment": 1,
+      "ignore_user_input": true
+    }
+]
