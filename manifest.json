@@ -1,12 +1,20 @@
 {
-  "name": "Final Fantasy VI Worlds Collide",
-  "game_name": "Final Fantasy VI Worlds Collide",
+  "name": "Final Fantasy VI Worlds Collide By Zellydev Games",
+  "game_name": "Final Fantasy VI",
   "platform": "SNES",
   "version": "0.1.0",
   "uid": "ff6wc_community_autotracker",
   "author": "ZellyDev Games",
   "link": "https://github.com/ZellyDev-Games/emotracker-pack-ff6wc",
   "layout_engine_version": "1.0.0",
+  "variants": {
+    "map": {
+      "display_name": "Map Tracker"
+    },
+    "gated": {
+      "display_name": "Gated Tracker"
+    }
+  },
   "auto_tracker_providers": [
     "sni",
     "nwa"

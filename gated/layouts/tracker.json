@@ -1,0 +1,224 @@
+{
+  "kefka_requirements_popup": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "8,8",
+    "content": [
+      {
+        "type": "group",
+        "header": "Required Characters",
+        "content": {
+          "type": "item",
+          "item": "requiredchars",
+          "width": 72,
+          "height": 72
+        }
+      },
+      {
+        "type": "group",
+        "header": "Required Espers",
+        "content": {
+          "type": "item",
+          "item": "requiredespers",
+          "width": 72,
+          "height": 72
+        }
+      },
+      {
+        "type": "group",
+        "header": "Auction Checks",
+        "content": {
+          "type": "item",
+          "item": "requiredauctionchecks",
+          "width": 72,
+          "height": 72
+        }
+      }
+    ]
+  },
+
+  "gated_left_characters": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,2",
+    "item_size": 64,
+    "rows": [
+      ["Terra", "Whelk", "LeteRiver", "ZozoRamuh", "Phunbaba", ""],
+      ["Locke", "tunnelArmor", "NarsheWpn", "PhoenixCave", "", ""],
+      ["Cyan", "WoBDoma", "WoRDoma", "MtZozo", "", ""],
+      ["Shadow", "GauManor", "Float", "WoRVeldt", "", ""],
+      ["Edgar", "FigThrone", "FigCave", "AncientCastle", "", ""],
+      ["Sabin", "Vargas", "ImperialCamp", "PhantomTrain", "BarenFalls", "TzenHouse"],
+      ["Celes", "ChainedCeles", "OperaHouse", "Magitek", "", ""]
+    ]
+  },
+
+  "gated_totals": {
+    "type": "container",
+    "background": "#080808",
+    "content": {
+      "type": "array",
+      "orientation": "horizontal",
+      "h_alignment": "center",
+      "content": [
+        {
+          "type": "itemgrid",
+          "item_margin": "2,2",
+          "item_size": 64,
+          "badge_font_size": 24,
+          "rows": [
+            ["Char", "Esper", "Dragon", "CheckCounter"]
+          ]
+        },
+        {
+          "type": "button_popup",
+          "style": "settings",
+          "layout": "kefka_requirements_popup",
+          "width": 16,
+          "height": 16,
+          "scale": 4,
+          "v_alignment": "center",
+          "margin": "12,0,0,0"
+        }
+      ]
+    }
+  },
+
+  "gated_dragons": {
+    "type": "container",
+    "background": "#080808",
+    "content": {
+      "type": "itemgrid",
+      "h_alignment": "center",
+      "item_margin": "2,2",
+      "item_size": 64,
+      "rows": [
+        [
+          "IceDragon", "StormDragon", "DirtDragon", "GoldDragon",
+          "SkullDragon", "BlueDragon", "RedDragon", "WhiteDragon"
+        ]
+      ]
+    }
+  },
+
+  "gated_right_characters": {
+    "type": "itemgrid",
+    "h_alignment": "right",
+    "item_margin": "2,2",
+    "item_size": 64,
+    "rows": [
+      ["WoBThamasa", "FanaticsTower", "EbotsRock", "Strago"],
+      ["", "EsperMtn", "Owzer", "Relm"],
+      ["", "KohlingenDoge", "DarillTomb", "Setzer"],
+      ["", "LoneWolf", "MogDef", "Mog"],
+      ["", "SerpentTrench", "VeldtJerky", "Gau"],
+      ["", "", "ZoneEater", "Gogo"],
+      ["", "", "Umaro", "UmaroCharacter"]
+    ]
+  },
+
+  "gated_ungated_checks": {
+    "type": "container",
+    "background": "#080808",
+    "content": {
+      "type": "itemgrid",
+      "h_alignment": "center",
+      "item_margin": "2,2",
+      "item_size": 64,
+      "rows": [
+        [
+          "NarsheKefka", "Auctioneer", "TzenThief", "DoomGaze", "Tritoch", "AtmaWpn"
+        ]
+      ]
+    }
+  },
+
+  "gated_tracker": {
+    "type": "viewbox",
+    "background": "#080808",
+    "content": {
+      "type": "dock",
+      "width": 748,
+      "height": 704,
+      "background": "#080808",
+      "content": [
+        {
+          "type": "layout",
+          "key": "gated_totals",
+          "dock": "bottom",
+          "height": 76
+        },
+        {
+          "type": "layout",
+          "key": "gated_ungated_checks",
+          "dock": "bottom",
+          "height": 76
+        },
+        {
+          "type": "layout",
+          "key": "gated_dragons",
+          "dock": "bottom",
+          "height": 76
+        },
+        {
+          "type": "dock",
+          "content": [
+            {
+              "type": "layout",
+              "key": "gated_left_characters",
+              "dock": "left",
+              "width": 408
+            },
+            {
+              "type": "container",
+              "dock": "left",
+              "width": 68,
+              "background": "#080808"
+            },
+            {
+              "type": "layout",
+              "key": "gated_right_characters"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "layout",
+      "key": "gated_tracker"
+    }
+  },
+
+  "tracker_default": {
+    "type": "container",
+    "background": "#080808",
+    "content": {
+      "type": "dock",
+      "content": [
+        {
+          "type": "layout",
+          "key": "gated_tracker",
+          "dock": "top"
+        },
+        {
+          "type": "container",
+          "background": "#080808"
+        }
+      ]
+    }
+  },
+
+  "tracker_horizontal": {
+    "type": "layout",
+    "key": "tracker_default"
+  },
+
+  "tracker_vertical": {
+    "type": "layout",
+    "key": "tracker_default"
+  }
+}
