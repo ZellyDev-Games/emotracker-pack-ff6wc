@@ -869,9 +869,19 @@
       "increment": 1
     },
     {
-      "name": "Completed Checks",
+      "name": "Opened Chests",
       "type": "consumable",
       "img": "images/Chest.png",
+      "codes": "Treasure",
+      "initial_quantity": 0,
+      "max_quantity": 384,
+      "increment": 1,
+      "ignore_user_input": true
+    },
+    {
+      "name": "Completed Checks",
+      "type": "consumable",
+      "img": "images/Transparent.png",
       "codes": "CheckCounter",
       "initial_quantity": 0,
       "max_quantity": 999,

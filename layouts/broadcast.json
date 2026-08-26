@@ -39,7 +39,7 @@
 							[ "ChainedCeles", "FigThrone" ],
 							[ "Auctioneer", "TzenThief" ],
 							[ "MtZozo", "Float" ],
-							[ "CheckCounter" ],
+							[ "Treasure", "CheckCounter" ],
 							[ "Char", "Esper" ],
 						]
 					},

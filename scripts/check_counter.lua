@@ -10,8 +10,8 @@ local CHECK_TOGGLES = {
 }
 
 local CHECK_PROGRESSIVES = {
-    { "Magitek", 0 }, { "Auctioneer", 0 }, { "Float", 0 },
-    { "WoRDoma", 0 }, { "Dragon", 0 }
+    { "Magitek", 0, 3 }, { "Auctioneer", 0, 0 }, { "Float", 0, 3 },
+    { "WoRDoma", 0, 3 }, { "Dragon", 0, 8 }
 }
 
 local CHARACTER_CODES = {
@@ -135,12 +135,19 @@ function update_check_counter()
         end
     end
 
+    local configured = Tracker:FindObjectForCode("requiredauctionchecks")
+    local required_auction_checks = configured and configured.AcquiredCount or 1
+    local total = #CHECK_TOGGLES + required_auction_checks
+    for _, progressive in ipairs(CHECK_PROGRESSIVES) do
+        total = total + progressive[3]
+    end
+
     local counter = Tracker:FindObjectForCode("CheckCounter")
     if counter then
         counter.AcquiredCount = completed
         -- Consumable items normally suppress their badge at zero. This is a
         -- status display, so keep the current value visible even when it is 0.
-        counter.BadgeText = tostring(completed)
+        counter.BadgeText = tostring(completed) .. "/" .. tostring(total)
     end
 
     updating_check_counter = false

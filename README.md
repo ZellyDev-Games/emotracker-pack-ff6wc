@@ -35,9 +35,11 @@ For development, the unpacked project directory may be placed in the same
 `packs` directory instead of a ZIP. The directory itself must contain
 `manifest.json` at its top level. Restart EmoTracker after replacing files.
 
-## Check counter
+## Counters
 
-The chest counter is now replaced with a check counter to better suit the competitive rulesets.  It still uses the old chest icon.
+The treasure chest counter shows the number of opened chests from the game's
+treasure flags. Beside it, a text-only `X/Y` display shows completed major
+checks; the total adjusts to the configured number of auction checks.
 
 ## Auto-tracking
 

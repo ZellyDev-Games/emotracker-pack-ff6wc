@@ -69,9 +69,10 @@
 		"h_alignment": "center",
 		"item_margin": "4,2",
 		"item_size": 64,
+		"badge_font_size": 24,
 		"rows":
 		[
-			[ "Char", "Esper", "Dragon", "CheckCounter" ]
+			[ "Char", "Esper", "Dragon", "Treasure", "CheckCounter" ]
 		]
 	},
 	"lower_tracker":
@@ -117,6 +118,7 @@
 									"layout": "kefka_requirements_popup",
 									"width": 36,
 									"height": 36,
+									"scale": 2,
 									"v_alignment": "center",
 									"margin": "0,0,8,0"
 								},

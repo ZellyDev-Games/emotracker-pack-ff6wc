@@ -165,8 +165,20 @@ local function update_counters(segment)
     return true
 end
 
+local function update_treasure(segment)
+    local opened = 0
+    for offset = 0, 0x2F do
+        opened = opened + bit_count(segment:ReadUInt8(0x7E1E40 + offset))
+    end
+
+    local counter = Tracker:FindObjectForCode("Treasure")
+    if counter then counter.AcquiredCount = opened end
+    return true
+end
+
 ScriptHost:AddMemoryWatch("FF6WC Party", 0x7E1EDE, 0x02, update_party, 250)
 ScriptHost:AddMemoryWatch("FF6WC Events", 0x7E1E80, 0xDF, update_events, 250)
 ScriptHost:AddMemoryWatch("FF6WC Counters", 0x7E1FC2, 0x0D, update_counters, 250)
+ScriptHost:AddMemoryWatch("FF6WC Treasure", 0x7E1E40, 0x30, update_treasure, 250)
 ScriptHost:AddMemoryWatch("FF6WC Final Kefka Battle", 0x7E11E0, 0x02, update_kefka_battle, 20)
 ScriptHost:AddMemoryWatch("FF6WC Final Kefka SFX", 0x7EE9E9, 0x01, update_kefka_sound, 20)
